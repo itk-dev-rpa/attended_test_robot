@@ -1,3 +1,4 @@
 from tkinter.messagebox import showinfo
+import sys
 
-showinfo("Message", "Hello world!")
+showinfo("Message", f"Hello world! {sys.argv[1]}")
